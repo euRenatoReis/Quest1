@@ -1,0 +1,254 @@
+
+
+@font-face {
+
+   font-family: 'Open Sans';
+   src: url('OpenSans-Regular.ttf') format('truetype');
+
+}
+
+
+body{
+
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../imagens/images/bg-desktop.svg") ;
+    display: flex;
+    flex-wrap: wrap;    
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+   
+   width: 800px;
+   height: 60px;
+   padding: 20px;
+   display: flex;
+   transform: translate(1px, 10px);
+   background-color: black;
+}
+
+header picture{
+
+    display: flex;
+    width: 250px;
+    height: 50px;
+    transform: translate(30px, 20px);
+    
+    
+}
+
+
+
+
+h1{
+
+    font-family: "Poppins";
+    
+
+}
+
+section{
+
+   top: 10%;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   gap: 100px;
+   padding: 50px;
+   height: 500px;
+   background-color: brown;
+}
+
+
+.ilustracao{
+
+   
+   width: 50%;
+   
+}
+
+
+.conteudo{
+
+   
+   flex-wrap: wrap;
+   width: 30%;
+   height: 75%;
+   display: flex-end;
+   
+
+}
+
+
+
+
+.conteudo button{
+
+   background-color: white;
+   border-radius: 20px;
+   transform: translate(5px, 20px);
+   box-sizing: border-box;
+   width: 200px;
+   height: 40px;
+   box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+.conteudo button:hover{
+
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: 0.4s;
+}
+
+footer{
+
+   
+   background-color: crimson;
+   display: inline-flex;
+   height: 60px;
+   width: 1256px;
+   justify-content: flex-end;
+   
+}
+
+nav{
+
+   display: flex;
+   background-color: coral;
+   justify-content: space-around;
+   width: 200px;
+   height: 30px;
+   right: 0px;
+ 
+}
+
+footer ul {
+
+   display: flex;
+   justify-content: space-around;
+   
+   
+}
+
+
+footer ul li{
+
+   display: inline-flex;
+   list-style: none;
+   align-self: center;
+
+}
+
+nav a, i{
+
+   display: flex;
+   background-color: pink;
+   align-items: center;
+  
+}
+
+
+footer i{
+
+   color: white;
+   
+
+}
+
+footer i:hover{
+
+   color: violet;
+}
+
+
+@media (max-width:375px){
+
+
+    body{
+
+       display: flex;
+      /* background-color: hsl(257, 40%, 49%);;
+       background-image: url("../imagens/images/bg-mobile.svg");
+       */
+       background-color: red;
+    }
+
+    h1{
+
+      font-family: 'Poppins Regular';
+    }
+    
+    section{
+      
+        
+         display: flex-box;
+         flex-wrap: wrap;
+         align-items: center;
+         padding: 10px;
+         background-color: blue;
+         height: 500px; 
+         width: 300px;
+           
+      }
+
+      .ilustracao{
+         width: 250px; 
+         height: 200px;
+         left: 20px;
+         top: 20px;
+         
+      }
+
+      .ilustracao img{
+        
+        width: 250px; 
+        height: 200px; 
+        left: 20px;
+        top: 20px;
+      }
+      
+      
+      .conteudo{
+      
+        flex-wrap: wrap;
+         display: flex; 
+         top: 0;
+         width: 250px; 
+         height: 80px;
+         justify-content: space-around;
+         
+      }
+      
+      p{
+      
+         font-family: 'Open Sans', sans-serif;; 
+       
+      }
+      
+      
+      .conteudo button{
+      
+         background-color: white;
+         border-radius: 20px;
+         transform: translate(5px, 20px);
+         box-sizing: border-box;
+         width: 200px;
+         height: 40px;
+         box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+         
+      }
+      
+      .conteudo button:hover{
+      
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+        transition: 0.4s;
+      }
+
+   
+
+
+}
