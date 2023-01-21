@@ -1,0 +1,306 @@
+
+
+@font-face {
+
+   font-family: 'Open Sans';
+   src: url('OpenSans-Regular.ttf') format('truetype');
+
+}
+
+
+body{
+
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../imagens/images/bg-desktop.svg") ;
+    display: flex;
+    flex-wrap: wrap;    
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+   
+   width: 800px;
+   height: 60px;
+   padding: 20px;
+   display: flex;
+   transform: translate(1px, 10px);
+  
+}
+
+header picture{
+
+    display: flex;
+    width: 250px;
+    height: 50px;
+    transform: translate(30px, 20px);
+    
+    
+}
+
+
+
+
+h1{
+
+    font-family: "Poppins";
+    
+
+}
+
+section{
+
+   top: 10%;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   gap: 100px;
+   padding: 50px;
+   height: 500px;
+ 
+}
+
+
+.ilustracao{
+
+   
+   width: 50%;
+   
+}
+
+
+.conteudo{
+
+   
+   flex-wrap: wrap;
+   width: 30%;
+   height: 75%;
+   display: flex-end;
+   
+
+}
+
+
+
+
+.conteudo button{
+
+   background-color: white;
+   border-radius: 20px;
+   transform: translate(5px, 20px);
+   box-sizing: border-box;
+   width: 200px;
+   height: 40px;
+   box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+.conteudo button:hover{
+
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: 0.4s;
+}
+
+footer{
+
+   
+ 
+   display: flex;
+   height: 60px;
+   width: 1256px;
+   justify-content: flex-end;
+   flex-wrap: wrap-reverse;
+   
+}
+
+footer ul {
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+  
+   width: 150px;
+   height: 100px;
+}
+
+footer ul li{
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+  
+   flex-grow: 1;
+   justify-content: center;
+   
+}
+
+footer i, a{
+
+   display: flex;
+   color: white;
+   text-decoration: none;
+   align-self: center;
+   
+} 
+
+footer i:hover{
+
+   color: hsl(300, 69%, 71%);
+   transition: 0.4s;
+}
+
+
+
+@media (max-width:375px){
+
+
+   @font-face {
+
+      font-family: 'Open Sans';
+      src: url('OpenSans-Regular.ttf') format('truetype');
+   
+   }
+   
+   
+   body{
+   
+       background-color: hsl(257, 40%, 49%);
+       background-image: url("../imagens/images/bg-desktop.svg") ;
+       display: flex;
+       flex-wrap: wrap;    
+       color: white; 
+       font-family: 'Open Sans', sans-serif;
+       
+       
+       max-width: 100vh;
+   }
+   
+   
+   header{
+      
+      width: 370px;
+      height: 40px;
+      padding: 20px;
+      display: flex;
+      transform: translate(1px, 10px);
+     
+   }
+   
+   header picture{
+   
+       display: flex;
+       width: 200px;
+       height: 30px;
+       transform: translate(10px, 2px);
+       
+       
+   }
+   
+   
+   h1{
+   
+       font-family: "Poppins";
+       
+   
+   }
+   
+   section{
+   
+      top: 10%;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 20px;
+      gap: 15px;
+      align-items: center;
+      width: 330px;
+      
+      
+   }
+   
+   
+   .ilustracao{
+   
+      left: 10px;
+      width: 320px;
+      height: 260px;
+   }
+   
+
+   .ilustracao img{
+     width: 320px;
+     height:260px;
+
+   }
+   
+   .conteudo{
+   
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      height: 260px;
+      top: 600px;
+      align-self: center;
+      align-content: center;
+   }
+   
+
+   
+   .conteudo button{
+   
+      background-color: white;
+      border-radius: 20px;
+      transform: translate(5px, 20px);
+      box-sizing: border-box;
+      width: 200px;
+      height: 40px;
+      box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+      transform: translate(50px, 20px);
+   }
+   
+   .conteudo button:hover{
+   
+     color: white;
+     background-color: hsl(300, 69%, 71%);
+     transition: 0.4s;
+   }
+   
+   footer{
+   
+      display: flex;
+      height: 60px;
+      width: 1256px;
+      justify-content: center;
+      flex-wrap: wrap;
+      transform: translate(-2px, 90px);    
+   }
+   
+   footer ul {
+      display: flex;
+      align-self: center;
+      
+
+   }
+   
+   footer ul li{
+      display: flex;
+      align-self: center;
+      
+   }
+   
+   footer i, a{
+   
+      display: flex;
+      color: white;
+      align-self: center;
+      
+   } 
+   
+   footer i:hover{
+   
+      color: hsl(300, 69%, 71%);
+      transition: 0.4s;
+   }
+
+
+}
